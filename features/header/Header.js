@@ -7,9 +7,9 @@ import Image from "next/image";
 import Button from "./components/Button";
 
 const buttonInfo = [
-  { id: "1", icon: <RiHome2Line />, buttonName: "Home" },
-  { id: "2", icon: <CiClock2 />, buttonName: "Timeline" },
-  { id: "3", icon: <GoGraph />, buttonName: "Status" },
+  { id: "1", icon: <RiHome2Line />, buttonName: "Home", path: "/" },
+  { id: "2", icon: <CiClock2 />, buttonName: "Timeline", path: "/timeline" },
+  { id: "3", icon: <GoGraph />, buttonName: "Status", path: "/status" },
 ];
 
 const Header = () => {
@@ -27,8 +27,8 @@ const Header = () => {
         </p>
       </div>
       <div className="flex items-center justify-center gap-5">
-        {buttonInfo.map(({ id, icon, buttonName }) => (
-          <Button buttonName={buttonName} key={id}>
+        {buttonInfo.map(({ id, icon, buttonName, path }) => (
+          <Button buttonName={buttonName} key={id} path={path}>
             {icon}
           </Button>
         ))}
