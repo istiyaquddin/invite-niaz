@@ -6,16 +6,16 @@ const SimpleCard = () => {
         <p className="text-lg font-semibold">Total Friends</p>
       </div>
       <div className="col-span-1 flex justify-center items-center flex-col gap-2 text-zinc-600 border border-zinc-100 shadow-lg rounded-xl py-20">
-        <p className="text-4xl font-bold">10</p>
-        <p className="text-lg font-semibold">Total Friends</p>
+        <p className="text-4xl font-bold">3</p>
+        <p className="text-lg font-semibold">On Track</p>
       </div>
       <div className="col-span-1 flex justify-center items-center flex-col gap-2 text-zinc-600 border border-zinc-100 shadow-lg rounded-xl py-20">
-        <p className="text-4xl font-bold">10</p>
-        <p className="text-lg font-semibold">Total Friends</p>
+        <p className="text-4xl font-bold">6</p>
+        <p className="text-lg font-semibold">Need Attention</p>
       </div>
       <div className="col-span-1 flex justify-center items-center flex-col gap-2 text-zinc-600 border border-zinc-100 shadow-lg rounded-xl py-20">
-        <p className="text-4xl font-bold">10</p>
-        <p className="text-lg font-semibold">Total Friends</p>
+        <p className="text-4xl font-bold">12</p>
+        <p className="text-lg font-semibold">Interactions this month</p>
       </div>
     </div>
   );
