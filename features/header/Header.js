@@ -8,8 +8,8 @@ import Button from "./components/Button";
 
 const buttonInfo = [
   { id: "1", icon: <RiHome2Line />, buttonName: "Home" },
-  { id: "1", icon: <CiClock2 />, buttonName: "Timeline" },
-  { id: "1", icon: <GoGraph />, buttonName: "Status" },
+  { id: "2", icon: <CiClock2 />, buttonName: "Timeline" },
+  { id: "3", icon: <GoGraph />, buttonName: "Status" },
 ];
 
 const Header = () => {
